@@ -1,0 +1,22 @@
+# swiftgen.yml
+
+# Настройка генерации кода для цветов из ассетов
+colors:
+  inputs: /Users/sashabravos/Desktop/Skillbox/ios_lvl2/m8_combine_p1/MagicNumber/MagicNumber/Resources
+  outputs:
+    - templateName: swift5
+      output: /Users/sashabravos/Desktop/Skillbox/ios_lvl2/m8_combine_p1/MagicNumber/MagicNumber/Resources/Colors.swift
+
+# Настройка генерации кода для шрифтов
+fonts:
+  inputs: /Users/sashabravos/Desktop/Skillbox/ios_lvl2/m8_combine_p1/MagicNumber/MagicNumber/Resources/IndieFlower-Regular.ttf
+  outputs:
+    - templateName: swift5
+      output: /Users/sashabravos/Desktop/Skillbox/ios_lvl2/m8_combine_p1/MagicNumber/MagicNumber/Resources/Fonts.swift
+
+# Настройка генерации кода для строковых обозначений переменных из MagicNumberViewController.swift
+strings:
+  inputs: /Users/sashabravos/Desktop/Skillbox/ios_lvl2/m8_combine_p1/MagicNumber/MagicNumber/MagicNumberViewController.swift
+  outputs:
+    - templateName: structured-swift5
+      output: /Users/sashabravos/Desktop/Skillbox/ios_lvl2/m8_combine_p1/MagicNumber/MagicNumber/Resources/Strings.swift
